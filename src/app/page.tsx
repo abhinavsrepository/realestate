@@ -1,7 +1,10 @@
-import Image from "next/image";
-
-export default function Home() {
+import Header from "@/shared/widgets/header/header"
+const Page = () => {
   return (
-   <p>hello world</p>
-  );
+    <div>
+      <Header/>
+    </div>
+  )
 }
+
+export default Page

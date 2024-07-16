@@ -11,7 +11,7 @@ const clashDisplay = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Iris Saas",
+  title: "IrisEmail",
   description: "Personalised News Letter Marketting",
 };
 

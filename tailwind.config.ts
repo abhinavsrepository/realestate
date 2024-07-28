@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
-const {nextui}= require("@nextui-org/react")
+const { nextui } = require("@nextui-org/react");
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +9,9 @@ const config: Config = {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      clashDisplay: ["var(--font-clashDisplay)"],
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

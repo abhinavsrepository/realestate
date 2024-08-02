@@ -31,7 +31,7 @@ const Pricing = () => {
               className={`${
                 active === "Yearly"
                   ? "bg-[#3843D0] text-white"
-                  : "bg-white text-black"
+                  : "bg-white text-grey-700"
               } rounded-l-[0] !p-7 text-2xl !px-16 border border-[#000]`}
               onClick={() => setActive("Yearly")}
             >
